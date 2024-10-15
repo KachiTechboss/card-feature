@@ -1,0 +1,85 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    padding: 2rem 5rem 0rem 8rem;
+    align-items: center;
+    justify-content: center;
+    background-color:  hsl(0, 0%, 98%);
+    font-family: "Poppins", sans-serif;
+}
+.content{
+    text-align: center;
+    padding: 5px;
+    
+}
+.Reliable-content{
+    color:  hsl(229, 6%, 66%);
+    align-items: center;
+}
+.technology-content{
+    color:  hsl(234, 12%, 34%);
+    align-items: center;
+}
+.content p{
+    width: 40%;
+    margin-inline: auto;
+    padding-top: 1rem;
+    color:  hsl(229, 6%, 66%);
+    align-items: center;
+}
+.second-container{
+    padding-bottom: 3rem;
+    padding-top: 4rem;
+    align-items: center;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 1fr 1fr 1fr  1fr;
+    grid-template-areas:  
+    "div1 div2 div4"
+    " div1 div3  div4";
+
+}
+
+.cards{
+    grid-area: div1;
+    width: 350px;
+    height: fit-content;
+    border-radius: 10px;
+    background-color: white;
+    padding: 30px;
+    border-top: 5px solid  hsl(180, 62%, 55%);
+
+}
+
+.cards h2{
+    color:  hsl(234, 12%, 34%);
+}
+.cards p{
+    padding-top: 20px;
+    color:  hsl(229, 6%, 66%);
+}
+.div2{
+    border-top: 5px solid  hsl(0, 78%, 62%);
+    grid-area: div2;
+}
+.div3{
+    border-top: 5px solid  hsl(34, 97%, 64%);
+    grid-area: div3;
+
+}
+.div4{
+    border-top: 5px solid  hsl(212, 86%, 64%);
+    grid-area: div4;
+    height: fit-content;
+
+}
+.image-container{
+    margin-left: auto;
+    display: flex;
+    width: 100%;
+    justify-content: end;
+    padding-top: 30px;
+}

@@ -1,0 +1,29 @@
+@media (max-width: 719px){
+    body{
+        padding: 40px 20px 20px 20px;
+       
+    }
+    .second-container{
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-areas:
+         "div1"
+         "div2"
+         "div3"
+         "div4";
+    }
+    .cards{
+        width: 100%;
+    }
+    
+.Reliable-content{
+    font-size: 20px;
+
+}
+.technology-content{
+    font-size: 20px;
+}
+.content p{
+    
+    width: 100%;
+}
+}
